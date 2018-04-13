@@ -2,11 +2,26 @@ phrase = "I love you grandma!"
 def speak_to_grandma(phrase)
   if phrase.upcase
     puts "I LOVE YOU TOO PUMPKIN!"
-  else
-    puts "HUH?! SPEAK UP, SONNY"
-  elsif
-  else
-    puts "I LOVE YOU TOO PUMPKIN!"
+  end
+
+  phrase = "Hi Nana, how are you?"
+  if phrase.downcase
+    puts "HUH?! SPEAK UP, SONNY!"
+  end
+
+phrase = "Hi!"
+  if phrase.downcase
+    puts "HUH?! SPEAK UP, SONNY!"
+  end
+
+phrase = "What did you eat today?"
+ if phrase.upcase
+    puts "NO, NOT SINCE 1938!"
+  end
+
+phrase = "What?"
+  if phrase.upcase
+    puts "NO, NOT SINCE 1938!"
   end
 end
 # Whatever you say to grandma, she should respond with
