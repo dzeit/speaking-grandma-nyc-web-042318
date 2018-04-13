@@ -1,7 +1,7 @@
-phrase = "I love you Grandma!"
+phrase = "I LOVE YOU GRANDMA!"
 def speak_to_grandma(phrase)
   if phrase.upcase
-    print "I LOVE YOU TOO PUMPKIN"
+    print "I LOVE YOU TOO PUMPKIN!"
   else
     print "HUH?! SPEK UP SONNY!"
   end
