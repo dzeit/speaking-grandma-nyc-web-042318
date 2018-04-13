@@ -3,7 +3,7 @@ def speak_to_grandma(phrase)
   if phrase.upcase
     print "I LOVE YOU TOO PUMPKIN!"
   else
-    print "HUH?! SPEK UP SONNY!"
+    print "HUH?! SPEAK UP SONNY!"
   end
 end
 # Whatever you say to grandma, she should respond with
